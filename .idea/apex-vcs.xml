@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ApexVcsIndex">
+    <index-move-record>
+      <option name="firstPath" value="/src/main/java/hello/CampusConnectApplication.java" />
+      <option name="path" value="/src/main/java/controller/CampusConnectApplication.java" />
+    </index-move-record>
+    <index-move-record>
+      <option name="firstPath" value="/src/test/java/hello/CampusConnectApplicationTest.java" />
+      <option name="path" value="/src/test/java/controller/CampusConnectApplicationTest.java" />
+    </index-move-record>
+    <index-move-record>
+      <option name="firstPath" value="/src/main/java/hello/HomeController.java" />
+      <option name="path" value="/src/main/java/controller/HomeController.java" />
+    </index-move-record>
+  </component>
+</project>

@@ -9,7 +9,19 @@
      function configure($routeProvider) {
                  $routeProvider
                      .when('/',{
-                        templateUrl: "partials/newEventsTabs.html"
+                        templateUrl: "partials/newEvents.html",
+                     })
+                     .when('/hotThreads',{
+                        templateUrl: "partials/hotThreads.html",
+                     })
+                     .when('/newEvents',{
+                        templateUrl: "partials/newEvents.html",
+                     })
+                     .when('/blockchain',{
+                        templateUrl: "partials/blockchain.html",
+                     })
+                     .when('/topicsHome',{
+                        templateUrl: "topicsHome.html",
                      })
      };
 

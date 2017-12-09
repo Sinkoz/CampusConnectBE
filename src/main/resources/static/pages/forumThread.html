@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>CampusConnect</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/font.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/structure.css">
+<link rel="stylesheet" href="assets/css/w3.css">
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-route.min.js"></script>
+<script src="assets/js/angular-animate.min.js"></script>
+<script src="assets/js/commons.module.js"></script>
+<script src="assets/js/main.config.js"></script>
+<script src="assets/js/controllers/nav-controller.js"></script>
+
+<style>
+h7 {
+    font-size: 170%;
+}
+</style>
+
+<!--[if lt IE 9]>
+
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body ng-app="campusconnect">
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<header id="header" ng-include src="'templates/partials/navigation.html'">
+</header>
+
+<div class="container">
+<!--stuff to be above page-->
+<div class="middlebar_content" style="height: 1200px">
+  <div id="hotThreads">
+    <div style="position:absolute; left:10px">
+      <div class="row">
+        <div class="middlebar_content">
+          <h2 class="yellow_bg">Net Neutrality</h2>
+          <div class="middlebar_content_inner wow fadeInUp">
+            <ul class="middlebar_nav">
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:50px">
+                <img src="images/FCC.jpg" alt="FCC">
+              </a>
+                 <a class="mbar_title" href="#" style="position:relative; right:200px">
+                   <h7>
+                    <p> The FCC's case against net neutrality rests on a </p> deliberate
+                     misrepresentation of how the internet works
+                  </a> </h7>
+              </li>
+              <li>
+                <hr>
+              </li>
+              <!-- Profile: 75*114 -->
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:50px">
+                <img src="images/profile_1.jpeg" alt="">
+                <div style="position: relative; top: 10px">
+                Jorge Bush <br>
+                Political Science Major
+              </div>
+              </a>
+                <a class="mbar_title" style="position:relative; top:28px; right:100px">
+                  It's almost like that former Verizon lawyer turned FCC Chairman doesn't have the taxpayers </br>
+                  best interest in mind...</a> </li>
+              <li>
+                <hr>
+              </li>
+
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:100px">
+                <img src="images/profile_2.jpeg" alt="">
+                <div style="position: relative; top: 10px">
+                Davy Jones <br>
+                Marine Science Major
+              </div>
+              </a>
+                <a class="mbar_title" style="position:relative; top:28px; right:50px">
+                  Maybe we have to think about what the telecommunication companies want! <br>
+                  I am very disappointed in them though
+                </a> </li>
+              <li>
+                <hr>
+              </li>
+
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:50px">
+                <img src="images/profile_3.jpg" alt="">
+                <div style="position: relative; top: 10px">
+                Hilda Adams <br>
+                Mechanical Engineering Major
+              </div>
+              </a>
+                <a class="mbar_title" style="position:relative; top:28px; right:100px">
+                  Isn't the FCC supposed to be working for the citizens? Us instead of the corporate influences? <br>
+                   I really need to know what is going on in Ajit's head!
+                  </a> </li>
+              <li>
+                <hr>
+              </li>
+
+          </div>
+          <div class="popular_categori  wow fadeInUp">
+            <h2 class="limeblue_bg">Most Popular Topics</h2>
+            <ul class="poplr_catgnva">
+              <li><a href="#" style="position:relative; left:150px">Business</a></li>
+              <li><a href="#" style="position:relative; left:150px">Technology</a></li>
+              <li><a href="#" style="position:relative; left:150px">Health &amp; Wellness</a></li>
+              <li><a href="#" style="position:relative; left:150px">Games</a></li>
+              <li><a href="#" style="position:relative; left:150px">Memes</a></li>
+              <li><a href="#" style="position:relative; left:150px">Sports</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</div>
+
+
+
+</div>
+<!--end of page-->
+<!-- <div style="position:fixed; bottom:5px; background-color: white; padding-top: 10px; padding-right:10px; padding-bottom:10px"> -->
+<div style="position:relative; bottom:50px; left: 20px">
+<div class="stuffpost_paginatinonarea wow slideInLeft">
+  <ul class="newstuff_pagnav">
+    <li><a class="active_page" href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">></a></li>
+  </ul>
+</div>
+</div>
+<!-- </div> -->
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer_inner">
+          <p class="pull-left">Copyright &copy; 2017 CampusConnect</p>
+          <p class="pull-right">Developed 2017</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

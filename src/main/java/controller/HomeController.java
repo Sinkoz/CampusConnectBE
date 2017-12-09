@@ -26,9 +26,19 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping("/greeting")
-    public String greeting(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
-        return "greeting";
+    @RequestMapping(value = "/economics", method = RequestMethod.GET)
+    public String economics(Model model) {
+        return "forumEconomics";
     }
+
+    @RequestMapping(value = "/topicsMain", method = RequestMethod.GET)
+    public String topicsMain(Model model) {
+        return "topicsMain";
+    }
+
+    @RequestMapping(value = "/thread", method = RequestMethod.GET)
+    public String thread(Model model) {
+        return "forumThread";
+    }
+
 }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>CampusConnect</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/font.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/structure.css">
+<link rel="stylesheet" href="assets/css/w3.css">
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-route.min.js"></script>
+<script src="assets/js/angular-animate.min.js"></script>
+<script src="assets/js/commons.module.js"></script>
+<script src="assets/js/main.config.js"></script>
+<script src="assets/js/controllers/nav-controller.js"></script>
+
+
+
+<!--[if lt IE 9]>
+
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body ng-app="campusconnect">
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<header id="header" ng-include src="'templates/partials/navigation.html'">
+</header>
+
+<div class="container">
+<!--stuff to be above page-->
+<div class="middlebar_content" style="height:800px">
+  <div id="hotThreads">
+    <div style="position:absolute; left:10px">
+      <div class="row">
+        <div class="middlebar_content">
+          <h2 class="yellow_bg">Economics</h2>
+          <div class="middlebar_content_inner wow fadeInUp">
+            <ul class="middlebar_nav">
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:150px">
+                <img src="images/tradeschool.jpg" alt="">
+              </a>
+                 <a class="mbar_title" href="#" style="position:relative; top:15px">Trade school, not 4-year college, is a better bet to solve the US income gap, researchers say</a> </li>
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:150px"><img src="images/debt.png" alt=""></a> <a class="mbar_title" href="#" style="position:relative; top:15px">Poll: Economists Unanimous That Debt Would Balloon Under GOP Tax Plan</a> </li>
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:150px"><img src="images/yellen.jpg" alt=""></a> <a class="mbar_title" href="#" style="position:relative; top:15px">Yellen: $20 trillion national debt 'should keep people awake at night'</a> </li>
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:150px"><img src="images/taxhaven.jpg" alt=""></a> <a class="mbar_title" href="#" style="position:relative; top:15px">After a Tax Crackdown, Apple Found a New Shelter for Its Profits</a> </li>
+              <li> <a class="mbar_thubnail" href="#" style="position:relative; left:150px"><img src="images/bitcoin.png" alt=""></a> <a class="mbar_title" href="#" style="position:relative; top:15px">Bitcoin Price Passes $9,000 for the First Time Ever</a> </li>
+          </div>
+          <div class="popular_categori  wow fadeInUp">
+            <h2 class="limeblue_bg">Most Popular Topics</h2>
+            <ul class="poplr_catgnva">
+              <li><a href="#" style="position:relative; left:150px">Business</a></li>
+              <li><a href="#" style="position:relative; left:150px">Technology</a></li>
+              <li><a href="#" style="position:relative; left:150px">Health &amp; Wellness</a></li>
+              <li><a href="#" style="position:relative; left:150px">Games</a></li>
+              <li><a href="#" style="position:relative; left:150px">Memes</a></li>
+              <li><a href="#" style="position:relative; left:150px">Sports</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</div>
+
+
+
+</div>
+<!--end of page-->
+<!-- <div style="position:fixed; bottom:5px; background-color: white; padding-top: 10px; padding-right:10px; padding-bottom:10px"> -->
+<div style="position:relative; bottom:50px; left: 20px">
+<div class="stuffpost_paginatinonarea wow slideInLeft">
+  <ul class="newstuff_pagnav">
+    <li><a class="active_page" href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">></a></li>
+  </ul>
+</div>
+</div>
+<!-- </div> -->
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer_inner">
+          <p class="pull-left">Copyright &copy; 2017 CampusConnect</p>
+          <p class="pull-right">Developed 2017</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

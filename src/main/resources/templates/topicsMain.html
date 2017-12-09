@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>CampusConnect</title>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="assets/css/font.css"/>
+<link rel="stylesheet" href="assets/css/animate.css"/>
+<link rel="stylesheet" href="assets/css/structure.css"/>
+<link rel="stylesheet" href="assets/css/w3.css"/>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-route.min.js"></script>
+<script src="assets/js/angular-animate.min.js"></script>
+<script src="assets/js/commons.module.js"></script>
+<script src="assets/js/main.config.js"></script>
+<script src="assets/js/controllers/nav-controller.js"></script>
+
+
+
+<!--[if lt IE 9]>
+
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body ng-app="campusconnect">
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<header id="header">
+  <ng-include src="'partials/navigation.html'"/>
+</header>
+
+<div class="container">
+<!--stuff to be above page-->
+<div class="middlebar_content" style="height:900px">
+  <div style="position:absolute; left:10px; top:100px">
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="/images/currentaffairs.jpg" alt="Current Affairs Pic" style="width:100%" class="w3-hover-opacity"/>
+        <div class="w3-container w3-white">
+          <br/>
+          <p><b>Current Affairs</b></p>
+          <p>Keep yourself updated on the exciting events happening on a global scale. Keep yourself in the know of major news from around the world.</p>
+          <br/>
+          <br/>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="/images/climatechange.jpg" alt="League Pic" style="width:100%" class="w3-hover-opacity"/>
+        <div class="w3-container w3-white">
+          <br/>
+          <p><b>Climate Change</b></p>
+          <p>A place for the rational discussion of the science of climate change. This is also a place for you to read about the latest news on climate data and governmental policies</p>
+        </div>
+      </div>
+
+      <div class="w3-third w3-container">
+        <img src="/images/immigration.jpg" alt="Skiing Pic" style="width:100%" class="w3-hover-opacity"/>
+        <div class="w3-container w3-white">
+          <br/>
+          <p><b>Immigration</b></p>
+          <p>A place to discuss US and Worldwide immigration news, politics, visas, green cards, raids, deportations, etc.</p>
+          <br/>
+          <br/>
+          <br/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="/images/technology.jpg" alt="Tech Pic" style="width:100%" class="w3-hover-opacity"/>
+        <div class="w3-container w3-white">
+          <br/>
+          <p><b>Technology</b></p>
+          <p>A place to share and discuss the latest developments, happenings and curiosities in the world of technology; a broad spectrum of conversation as to the innovations, aspirations, applications and machinations that define our age and shape our future.</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <a href="/economics">
+        <img src="/images/economics.jpg" alt="Economics Pic" style="width:100%" class="w3-hover-opacity"/>
+        <div class="w3-container w3-white">
+          <br/>
+          <p><b>Economics</b></p>
+          <p>Proliferation and discourse pertaining to research, news, academic work, and academic summaries from the perspective of economists </p>
+        </div>
+      </a>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="/images/apple.png" alt="Apple Pic" style="width:100%" class="w3-hover-opacity"/>
+        <div class="w3-container w3-white">
+          <br/>
+          <p><b>Corporate Responsibility</b></p>
+          <p>What is the role of a company in our world today? Join the chat with our friendly community here today!</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+</div>
+<!--end of page-->
+<!-- <div style="position:fixed; bottom:5px; background-color: white; padding-top: 10px; padding-right:10px; padding-bottom:10px"> -->
+<div style="position:relative; bottom:50px; left: 20px">
+<div class="stuffpost_paginatinonarea wow slideInLeft">
+  <ul class="newstuff_pagnav">
+    <li><a class="active_page" href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">></a></li>
+  </ul>
+</div>
+</div>
+<!-- </div> -->
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer_inner">
+          <p class="pull-left">Copyright &copy; 2017 CampusConnect</p>
+          <p class="pull-right">Developed 2017</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

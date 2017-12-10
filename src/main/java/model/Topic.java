@@ -4,6 +4,7 @@ package model;
  * Created by Xinchen on 5/12/17.
  */
 
+import com.sun.tools.javac.util.List;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -15,6 +16,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
+import java.util.ArrayList;
 
 @Entity
 @Getter
@@ -22,10 +24,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @ToString
 @Table(name = "topics")
-public class Topic implements Serializable{
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+public class Topic extends BasicEntity implements Serializable{
 
     private String name;
     private String description;

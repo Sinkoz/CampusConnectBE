@@ -8,6 +8,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import org.springframework.data.annotation.*;
+import org.springframework.data.annotation.Id;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -18,15 +20,13 @@ import java.io.Serializable;
 @NoArgsConstructor
 @ToString
 @Table(name = "posts")
-public class Post implements Serializable{
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+public class Post extends BasicEntity implements Serializable{
 
-    private long topicId;
+//    private long topicId;
+    private String topic;
     private String message;
 
     public Post(long topicId){
-        this.topicId = topicId;
+//        this.topicId = topicId;
     }
 }

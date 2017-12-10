@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-public interface TopicRepository extends CrudRepository<Topic,Long> {
+public interface TopicRepository extends CrudRepository<Topic,String> {
 
 }

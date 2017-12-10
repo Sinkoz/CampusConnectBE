@@ -59,9 +59,9 @@
 
 
       <legend><span class="number"></span>Your Post</legend>
-      <label for="text">Post:</label> <br/>
-      <input type="text" id="text" name="thread_topic" th:field="*{message}"/>
-      <!--<textarea id="text" name="post_text" cols="160" rows="10"></textarea>-->
+      <label for="Post">Post:</label> <br/>
+      <!--<input type="text" id="text" name="thread_topic" th:field="*{message}"/>-->
+      <textarea id="text" name="post_text" cols="160" rows="10" th:field="*{message}"></textarea>
 
       <br/>
       <br/>
